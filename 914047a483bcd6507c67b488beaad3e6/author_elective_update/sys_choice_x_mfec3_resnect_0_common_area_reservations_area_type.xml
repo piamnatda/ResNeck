@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="area_type" table="x_mfec3_resnect_0_common_area_reservations" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>area_type</element>
+            <name>x_mfec3_resnect_0_common_area_reservations</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-19 10:42:59</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>area_type</sys_name>
+            <sys_package display_value="ResNect Application" source="x_mfec3_resnect_0">914047a483bcd6507c67b488beaad3e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ResNect Application">914047a483bcd6507c67b488beaad3e6</sys_scope>
+            <sys_update_name>sys_choice_x_mfec3_resnect_0_common_area_reservations_area_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-19 10:42:59</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>area_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fitness</label>
+            <language>en</language>
+            <name>x_mfec3_resnect_0_common_area_reservations</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-19 10:42:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-19 10:42:59</sys_updated_on>
+            <value>fitness</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>area_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meeting Room</label>
+            <language>en</language>
+            <name>x_mfec3_resnect_0_common_area_reservations</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-19 10:42:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-19 10:42:59</sys_updated_on>
+            <value>meeting_room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>area_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Swimming Pool</label>
+            <language>en</language>
+            <name>x_mfec3_resnect_0_common_area_reservations</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-19 10:42:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-19 10:42:59</sys_updated_on>
+            <value>swimming_pool</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

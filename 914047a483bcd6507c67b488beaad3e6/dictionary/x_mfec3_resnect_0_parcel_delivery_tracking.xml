@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8240c7a483bcd6507c67b488beaad368" label="Parcel Delivery Tracking" max_length="40" name="x_mfec3_resnect_0_parcel_delivery_tracking" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Arrival Date Time" mandatory="true" max_length="40" name="arrival_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Parcel Company" mandatory="true" max_length="40" name="parcel_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type of Parcel" mandatory="true" max_length="40" name="parcel_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tracking Number" mandatory="true" max_length="40" name="tracking_number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7d4087a483bcd6507c67b488beaad3f3" label="Common Area Reservations" max_length="40" name="x_mfec3_resnect_0_common_area_reservations" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Common Area" mandatory="true" max_length="40" name="area_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Fitness" value="fitness"/>
+                <element inactive_on_update="false" label="Meeting Room" value="meeting_room"/>
+                <element inactive_on_update="false" label="Swimming Pool" value="swimming_pool"/>
+            </choice>
+        </element>
+        <element label="Duration" mandatory="true" max_length="40" name="duration" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Reservation Date" mandatory="true" max_length="40" name="reservation_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Resident" mandatory="true" max_length="32" name="resident" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="resident"/>
+        </index>
+    </element>
+</database>
